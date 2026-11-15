@@ -1,0 +1,152 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2, h3, h4 {
+    margin: 10px 0;
+}
+
+header, .header, .navbar, nav {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+}
+
+header a, .header a, .navbar a, nav a {
+    color: white;
+    margin-right: 15px;
+}
+
+.container, .konten, main {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+input, select {
+    width: 100%;
+    max-width: 350px;
+    padding: 6px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+
+button, .tombol {
+    margin-top: 12px;
+    padding: 7px 15px;
+    background-color: #0066cc;
+    color: white;
+    border: 1px solid #004c99;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+}
+
+button:hover, .tombol:hover {
+    background-color: #004c99;
+    text-decoration: none;
+}
+
+button:disabled {
+    background-color: #aaa;
+    border-color: #888;
+    cursor: not-allowed;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #999;
+    padding: 6px 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #e0e0e0;
+}
+
+.pesan {
+    background-color: #d4edda;
+    border: 1px solid #28a745;
+    color: #155724;
+    padding: 8px;
+}
+
+.error {
+    background-color: #f8d7da;
+    border: 1px solid #dc3545;
+    color: #721c24;
+    padding: 8px;
+}
+
+.kecil {
+    font-size: 12px;
+    color: #666;
+}
+
+.kartu {
+    display: inline-block;
+    width: 150px;
+    margin: 10px 10px 10px 0;
+    padding: 15px;
+    background-color: #e8f0fe;
+    border: 1px solid #999;
+    text-align: center;
+}
+
+.kartu b {
+    font-size: 24px;
+}
+
+.login-box {
+    width: 300px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #999;
+}
+
+.login-box h2 {
+    text-align: center;
+}
+
+.login-box input {
+    max-width: 100%;
+}
+
+.login-box button {
+    width: 100%;
+}
